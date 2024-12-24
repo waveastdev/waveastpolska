@@ -1,0 +1,24 @@
+.statistics {
+display: grid;
+grid-template-columns: repeat(2, 1fr); 
+gap: 3rem 2rem; }
+@media (max-width: 30em) { 
+.statistics {
+grid-template-columns: repeat(1, 1fr);; } }
+@media (min-width: 75em) { 
+.statistics {
+grid-template-columns: repeat(4, 1fr); } }
+    .statistic {
+    padding: 2rem;
+    border-radius: 0.4rem;
+    text-align: center;
+    user-select: none;
+    transition: background 0.5s ease; }
+    .statistic:hover {
+    background: var(--card-hover); }
+        .statistic__title {
+        color: var(--moonstone);
+        font-weight: 600;
+        font-size: 2.4rem;
+        margin-bottom: 1rem; }
+        .statistic:hover .statistic__title {color: var(--warm-orange); }

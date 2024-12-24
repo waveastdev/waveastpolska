@@ -1,0 +1,21 @@
+.special-heading-two {
+position: relative;
+margin-bottom: 5rem;
+color: var(--cyan-dark);
+text-align: center;
+z-index: 1; }
+    .special-title-two {
+    display: inline-block;
+    background-image: linear-gradient(to left, var(--warm-orange), var(--moonstone));
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text; }
+        .special-span-two {font-size: 4rem; }
+            .special-span-svg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 5rem;
+            width: 5rem;
+            transform: translate(-50%, -50%);
+            z-index: -1; }

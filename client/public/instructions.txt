@@ -1,0 +1,31 @@
+# 1- After hosting, go to Google search console.
+# 2- paste the URl of your website.
+# 3- Choose the validation method of HTML tag: copy the HTML tag and paste it in your index.html file along with the mega tags.
+# 4- wait few minutes that the website will get redeployed then click on verify.
+# 5- Go to sitemaps and paste th URl of your sitemap: https://waveast.pl/sitemap.txt
+
+
+# Don't put anything other than URLs in the sitemap file.
+
+# Set Up VS Code:
+1- Visit the website https://code.visualstudio.com/
+2- Download & Install.
+
+# Set Up Git:
+1- Visit the website https://git-scm.com/
+2- Download & Install.
+    During installation: 
+    - choose VS Code as default code editor. 
+    - Override the default branch name for new repositories, and use main as a name.
+    - Check "Enable experimental support for pseudo consoles." and "Enable experimental built-in file system monitor."
+3- Set Up your identity:
+    - Open Git Bash editor or VS Code editor:
+    - Run the commands: 
+    $ git config --global user.name "John Doe"
+    $ git config --global user.email johndoe@example.com
+4- In Case you will need a Personal Access Token:
+    - Go to your GitHub profile settings.
+    - Click on Developer Settings Tab.
+    - Click on Personal Access Token Tab then Tokens (Classic).
+    - Generate new Token (Classic).
+

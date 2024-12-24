@@ -1,0 +1,47 @@
+.newsletter {
+position: relative;
+background: var(--card-hover); }
+        .newsletter__form {
+        text-align: center; }
+            .newsletter__div {
+            display: inline-block;
+            position: relative; }
+                .newsletter__input {
+                outline: 1px solid transparent;
+                padding: 1rem; 
+                border: 1px solid var(--moonstone);
+                background-color: var(--mint-cream); 
+                color: var(--rich-black);
+                border-top-left-radius: 0.4rem;
+                border-bottom-left-radius: 0.4rem;}
+                .newsletter__input:focus {
+                outline-color: var(--moonstone);
+                border-color: var(--moonstone); }
+                .newsletter__input--error {
+                border-color: var(--error-lighter-color);
+                background-color:var(--error-darker-color); }
+                .newsletter__input--error:focus {
+                border-color: var(--error-lighter-color);
+                outline-color: var(--error-lighter-color); }
+                .newsletter__input--valid {
+                background-color: var(--valid-darker-color); }
+                .newsletter__input--valid:focus {
+                border-color: var(--valid-lighter-color); }
+                .newsletter__form-error {
+                color: var(--error-text-color);
+                font-size: 1.2rem;
+                position: absolute;
+                left: 1rem;
+                bottom: -2rem;} 
+                .newsletter__btn {
+                padding: 1rem;
+                border-top-right-radius: 0.4rem;
+                border-bottom-right-radius: 0.4rem;
+                background: var(--btn-background);
+                border: 1px solid var(--moonstone);
+                color: var(--static-cyan-dark);
+                font-weight: 600;
+                transition: all var(--main-duration) ease-in-out; }
+                .newsletter__btn:hover {
+                background: var(--btn-hover);
+                border: 1px solid var(--moonstone); }

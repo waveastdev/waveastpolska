@@ -1,0 +1,19 @@
+.scrollup {
+display: inline-flex;
+justify-content: center;
+align-items: center;
+width: 5rem;
+height: 5rem;
+border-radius: 50%;
+position: fixed;
+right: 2rem;
+bottom: 2rem;
+box-shadow: var(--shadow-color) 0px 10px 30px -20px;
+z-index: 90;
+opacity: 0;
+animation: fadeIn 0.5s ease-in-out 0.5s forwards;
+color: var(--static-cyan-dark);
+background: var(--btn-hover); }
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }}

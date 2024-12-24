@@ -1,0 +1,367 @@
+{
+    "nav": {
+        "logoLabel": "retour à l'accueil",
+        "navLinks": [
+            "accueil",
+            "À propos",
+            "services",
+            "projets",
+            "contact"
+        ],
+        "darkInputAriaLabel": "interrupteur de mode sombre",
+        "langIconAriaLabel": "Changer la langue"
+    },
+    "footer": {
+        "information": "Informations",
+        "about": "À propos de nous",
+        "contact": "Contactez-nous",
+        "bhp": "Politique SST",
+        "catalogue": "Catalogue",
+        "expertise": "Notre expertise",
+        "services": "Services",
+        "projects": "Projets",
+        "follow": "Suivez-nous",
+        "LinkedInAriaLabel": "Lien vers notre compte LinkedIn",
+        "InstagramAriaLabel": "Lien vers notre compte Instagram",
+        "FacebookAriaLabel": "Lien vers notre compte Facebook",
+        "TwitterAriaLabel": "Lien vers notre compte Twitter"
+    },
+    "scrollUpAriaLabel": "Faites défiler vers le haut",
+    "landing": {
+        "unsupported": "Votre navigateur ne prend pas en charge la balise vidéo.",
+        "scrollDown": "Faites défiler vers le bas"
+    },
+    "subLanding": {
+        "subTitle": "Plongez dans l'univers des installations et services de parc aquatique d'exception."
+    },
+    "statistics": [
+        "Années d'expérience",
+        "Projets réalisés",
+        "Pays où nous avons opéré",
+        "Continents où nous avons travaillé"
+    ],
+    "carouselBtnAriaLabel": {
+        "left": "Faire défiler vers la gauche",
+        "right": "Faire défiler vers la droite"
+    },
+    "services": [
+        {
+            "title": "Toboggans & éléments aquatiques",
+            "content": [
+                {"subTitle": "Installation : ", "subContent": "Nous proposons des services de \"conseil technique ou d'installation complète\", assurés par notre équipe hautement qualifiée."},
+                {"subTitle": "Maintenance & rénovation : ", "subContent": "Nos techniciens spécialisés sont compétents pour gérer tous les projets de réparation liés aux éléments composites."},
+                {"subTitle": "Conception & ventes : ", "subContent": "Nous créons des solutions personnalisées pour les nouveaux projets ainsi que pour les projets existants."}
+            ]
+        },
+        {
+            "title": "Manèges, unités d'escalade & aires de jeux",
+            "content": [
+                {"subTitle": "Installation : ", "subContent": "Nous fournissons des services d'assemblage de produits, soutenus par nos conseillers techniques et installateurs expérimentés."},
+                {"subTitle": "Consultation : ", "subContent": "Notre équipe peut vous aider à développer des plans directeurs complets et à gérer votre projet du concept initial à l'installation sur site."}
+            ]
+        },
+        {
+            "title": "Technologie de l'eau & systèmes hydromécaniques",
+            "content": [
+                {"subTitle": "Systèmes hydromécaniques : ", "subContent": "Nous garantissons l'installation de systèmes de haute qualité  pour le traitement, la circulation et la filtration de l'eau, optimisées pour l'efficacité énergétique."},
+                {"subTitle": "Technologie de l'eau : ", "subContent": "Nous proposons diverses solutions conçues pour améliorer l'expérience aquatique pour tous les âges, y compris les piscines à vagues, les rivières et les piscines de surf."}
+            ]
+        },
+        {
+            "title": "Assemblage de structures métallique",
+            "content": [
+                {"subTitle": "", "subContent": "Notre équipe est spécialisée dans l'assemblage de structures en acier au carbone et en acier inoxydable, telles que des plateformes, des entrepôts, des protecteurs, des bâtiments industriels, des escaliers et des rampes."}
+            ]
+        },
+        {
+            "title": "Systèmes thématiques",
+            "content": [
+                {"subTitle": "", "subContent": "Nos systèmes de thématisation de haute qualité sont conçus pour s'intégrer harmonieusement à leur environnement et offrir une durabilité exceptionnelle. Nous proposons des revêtements de sol en mousse de caoutchouc, des décors en galets, des roches artificielles, des façades et des composants de mobilier."}
+            ]
+        },
+        {
+            "title": "Mise en service & certification",
+            "content": [
+                {"subTitle": "", "subContent": "Nous assurons la conformité de vos parcs aquatiques et piscines de loisirs aux normes européennes et américaines. Nos services incluent des inspections rigoureuses, des certifications, des audits techniques et des conseils personnalisés."}
+            ]
+        },
+        {
+            "title": "Innovation & nouvelles technologies",
+            "content": [
+                {"subTitle": "", "subContent": "En collaboration avec DOF Robotics en Pologne, nous sommes ravis d'apporter le plaisir de l'eau dans le métavers à travers des scénarios VR de haute qualité, immersifs et visuellement engageants."}
+            ]
+        }
+    ],
+    "sectionHeadings": {
+        "services": {"title": "Services", "subTitle": "Services complets pour chaque besoin"},
+        "projects": {"title": "Projets", "subTitle": "Notre présence à travers le monde"},
+        "faqs": {"title": "F.A.Q.", "subTitle": "Questions fréquemment posées"},
+        "newsletter": {"title": "Newsletter", "subTitle": "Soyez le premier à savoir"}
+    },
+    "faqs": {
+        "accordion": [
+            {"question": "Waveast propose-t-il une couverture internationale pour ses services ?", "answer": "Oui, Waveast propose une couverture mondiale pour la plupart des projets ainsi qu'une couverture complète de la zone EMEA, garantissant ainsi une réponse aux besoins des clients, peu importe leur emplacement."},
+            {"question": "Qui fournit les équipements et les fournitures pour les services de Waveast ?", "answer": "Tant que l'équipement et les fournitures sont transportables, l'équipe de Waveast est complètement équipée de tous les outils, matériels et matériaux de haute qualité nécessaires, garantissant ainsi une expérience sans stress pour nos clients."},
+            {"question": "Quels services d'installation Waveast propose-t-elle ?", "answer": "Waveast propose des services d'installation de haute qualité, y compris, mais sans s'y limiter, des toboggans et des éléments aquatiques, des structures métalliques, des attractions récréatives, des unités d'escalade, des aires de jeux et des systèmes hydromécaniques."},
+            {"question": "Que comprend le processus d'installation ?", "answer": "Le processus d'installation inclut des fiches de méthode détaillées et des plans d'action allant de l'idéation à l'installation, l'assemblage de produits avec l'aide de consultants techniques et d'installateurs qualifiés, ainsi qu'une installation réalisée dans les délais, conforme aux réglementations et normes de sécurité."},
+            {"question": "Quels services de maintenance Waveast propose-t-elle ?", "answer": "Waveast se spécialise dans les services de maintenance et de rénovation, y compris les inspections complètes des parcs et des produits, un programme de maintenance annuel, les réparations de dommages, le polissage et le nettoyage des toboggans, ainsi que la peinture des toboggans, tant à l'intérieur qu'à l'extérieur."},
+            {"question": "Que comprend le programme de maintenance annuel ?", "answer": "Le programme annuel de maintenance comprend, mais sans s'y limiter, la rénovation des joints, la réparation des dommages et le polissage et le nettoyage des toboggans."},
+            {"question": "Comment fonctionne le processus de maintenance chez Waveast ?", "answer": "Nos techniciens procèdent d'abord à une inspection des parcs et/ou des toboggans aquatiques du client. Après l'inspection, ils fournissent un rapport complet ainsi qu'une proposition du travail nécessaire."},
+            {"question": "Y a-t-il une garantie pour les services de maintenance ?", "answer": "Oui, Waveast offre une garantie saisonnière pour ses services de maintenance afin d'assurer la satisfaction du client et la durabilité à long terme du travail effectué."}
+        ],
+        "showBtn": "Afficher plus"
+    },
+    "newsLetter": {
+        "placeHolder": "Entrez votre email",
+        "subscribeBtn": "S'abonner",
+        "error": {
+            "requiredEmail": "Email requis",
+            "validEmail": "Entrez un email valide"
+        },
+        "modal": {
+            "success": {
+                "title": "Bienvenue dans notre communauté !", 
+                "message": "Merci de vous être abonné à notre newsletter ! Vous êtes maintenant sur la liste pour recevoir les dernières mises à jour et informations directement dans votre boîte de réception."
+            },
+            "error": {
+                "title": "Oups ! Quelque chose s'est mal passé",
+                "message": "Malheureusement, nous n'avons pas pu traiter votre abonnement à ce moment. Vérifiez votre adresse e-mail et réessayez. Si vous continuez à rencontrer des problèmes, n'hésitez pas à nous contacter pour obtenir de l'aide. Merci de votre compréhension !"
+            },
+            "okayBtn": "D'accord"
+        }
+    },
+    "whyWe": [
+        {"title": "Expérience", "paragraph": "Notre personnel dispose de plus de dix ans d'expertise dans l'industrie."},
+        {"title": "Service client", "paragraph": "Nous offrons un service client en ligne 24 heures sur 24, 7 jours sur 7, et nous sommes une organisation axée sur le client, soucieuse de garantir leur satisfaction."},
+        {"title": "Savoir-faire", "paragraph": "Notre équipe qualifiée est toujours prête à proposer de nouvelles idées et consultations à nos clients."},
+        {"title": "Qualité", "paragraph": "Tous nos produits, services et matériaux répondent aux normes les plus élevées de qualité."},
+        {"title": "Prix compétitifs", "paragraph": "Nous proposons des services de haute qualité à des prix raisonnables."},
+        {"title": "Garantie", "paragraph": "Nos services et produits sont couverts par une variété de garanties."},
+        {"title": "Sécurité", "paragraph": "La santé et la sécurité des personnes, ainsi que la durabilité à long terme de nos produits, constituent notre principale priorité."}
+    ],
+    "iaapaAlt": "Logo membre IAAPA",
+    "basenprofAlt": "Logo membre BASENPROF",
+    "isabaAlt": "Logo partenaire ISABA",
+    "apexAlt": "Logo partenaire APEX",
+    "dofAlt": "Logo partenaire DOF",
+    "partners": "partenaires",
+    "memberships": "adhésions",
+    "pageTitles": {
+        "about": "Qui sommes-nous ?",
+        "services": "Nos services",
+        "projects": "Nous avons été à...",
+        "contact": "Prenez contact avec nous",
+        "bhp": "Politique de santé et de sécurité au travail",
+        "privacy": "Politique de confidentialité"
+    },
+    "specialHeadings": {
+        "whyWe": "Pourquoi nous ?",
+        "visionMissionValues": "Notre engagement",
+        "people": "Notre équipe",
+        "partners&memberships": "Nos partenaires & adhésions",
+        "servicesGallery": "Galerie"
+    },
+    "companyVision": {
+        "title": "Vision",
+        "paragraph": "Nous voulons apporter le plaisir de l'eau aux personnes de tous âges à travers le monde."
+    },
+    "companyMission": {
+        "title": "Mission",
+        "paragraph": "Nous voulons fournir des solutions flexibles à nos clients, qu'ils soient grands ou petits, en répondant à tous leurs besoins."
+    },
+    "companyValues": {
+        "title": "Valeurs",
+        "paragraph": ["Responsabilité", "Professionnalisme", "Fiabilité", "Travail d'équipe", "Qualité", "Excellence"]
+    },
+    "companyPeople": [
+        "Waveast Installation & Park Services a été fondée par deux ingénieurs ayant plus de dix ans d'expérience dans l'industrie. Grâce à une équipe technique dynamique et à des partenariats stratégiques à l'échelle mondiale, Waveast bénéficie d'une présence internationale.",
+        "Avec une équipe après-vente axée sur le client, ainsi que des designers et des ingénieurs qualifiés, Waveast est en mesure de fournir un service de la plus haute qualité à ses clients."
+    ],
+    "aboutCompany": [
+        "Fondée en {{yearFounded}} dans la dynamique ville de Varsovie, en Pologne, Waveast s'engage fermement envers l'industrie des loisirs et du divertissement. La vision et la passion de notre fondateur ont guidé notre parcours, nous inspirant à créer des expériences passionnantes pour les gens du monde entier. Avec une équipe talentueuse de plus de {{teamSize}} professionnels, nous combinons expertise et dévouement pour offrir des solutions de haute qualité pour les hôtels, parcs à thème, parcs aquatiques et sites de camping.",
+        "Notre équipe se compose d'ingénieurs qualifiés, des installateurs, des réparateurs et de personnel administratif, tous travaillant ensemble pour garantir que chaque projet respecte nos standards élevés. Avec plus d'une décennie d'expérience collective, nous sommes fiers de notre efficacité et de notre performance opérationnelle. Cet engagement nous a permis de développer un portefeuille diversifié de plus de {{projectCount}} projets réussis dans {{countryCount}} pays.",
+        "Waveast se distingue comme un acteur majeur dans l'industrie, avec une forte présence dans les régions EMEA, APAC et LATAM. Nous sommes passionnés par le fait de franchir les frontières du divertissement et de créer des expériences mémorables pour des personnes de tous âges."
+    ],
+    "servicesCompany": [
+        "Waveast Installation & Park Services se positionne comme un fournisseur de premier plan de solutions intégrées pour l'industrie du divertissement et des loisirs. Animés par un fort engagement envers l'excellence, nous proposons des services personnalisés, spécifiquement conçus pour répondre aux besoins uniques de chaque client.",
+        "Voici un aperçu de ce que nous offrons :"
+    ],
+    "projectsCompany": [
+        "Waveast Installation & Park Services a réalisé de nombreux projets à travers le monde, démontrant ainsi notre expertise dans la création d'attractions et de parcs aquatiques exceptionnels. Notre présence mondiale reflète notre engagement envers l'excellence et notre capacité à répondre aux besoins divers de nos clients dans différents environnements.",
+        "Chez Waveast, nous comprenons que chaque projet est unique, et nous nous engageons à offrir des expériences mémorables à nos clients ainsi qu'à leurs propres clients."
+    ],
+    "contactCompany": "Pour toutes les demandes, utilisez le formulaire de contact ou contactez-nous directement en utilisant les informations de contact fournies ci-dessous.",
+    "projectsPlaces": {
+        "seville": "Séville, Espagne",
+        "antalya": "Antalya, Turquie",
+        "tirana": "Tirana, Albanie",
+        "chisinau": "Chisinau, Moldavie",
+        "baghdad": "Bagdad, Irak",
+        "pattaya": "Pattaya, Thaïlande",
+        "arandjelovac": "Arandjelovac, Serbie",
+        "babilon": "Babylone, Irak",
+        "wrecza": "Wrecza, Pologne",
+        "quatreCocos": "Quatre Cocos, Maurice",
+        "izmir": "Izmir, Turquie",
+        "coventry": "Coventry, Angleterre"
+    },
+    "projects": {
+        "aguamagica": {"name": "AGUA MAGICA", "place": "Séville", "country": "Espagne"},
+        "aquascope": {"name": "AQUASCOPE", "place": "Chasseneuil-du-Poitou", "country": "France"},
+        "aquaterra": {"name": "AQUATERRA", "place": "Chisinau", "country": "Moldavie"},
+        "aquopolis": {"name": "AQUOPOLIS", "place": "Cullera", "country": "Espagne"},
+        "capfun": {"name": "CAPFUN", "place": "Saint-Cast-le-Guildo", "country": "France"},
+        "cartoon": {"name": "CARTOON NETWORK AMAZONE", "place": "Pattaya", "country": "Thaïlande"},
+        "eurocamping": {"name": "EUROCAMPING", "place": "Sant Antoni de Calonge", "country": "Espagne"},
+        "frenzy": {"name": "FRENZY", "place": "Torreilles", "country": "France"},
+        "jandiagolf": {"name": "HOTEL JANDIA GOLF", "place": "Fuerteventura", "country": "Espagne"},
+        "izvor": {"name": "IZVOR", "place": "Arandjelovac", "country": "Serbie"},
+        "jandiamar": {"name": "JANDÍA MAR", "place": "Îles Canaries", "country": "Espagne"},
+        "lahacienda": {"name": "LA HACIENDA", "place": "Tarragone", "country": "Espagne"},
+        "landoflegends": {"name": "LAND OF LEGENDS", "place": "Antalya", "country": "Turquie"},
+        "maritim": {"name": "MARITIM CRYSTAL BEACH HOTEL", "place": "Quatre Cocos", "country": "Maurice"},
+        "ogliss": {"name": "O'GLISS PARK", "place": "Le Bernard", "country": "France"},
+        "ozarowskie": {"name": "OŻAROWSKIE BASENY LETNIE", "place": "Ożarów Mazowiecki", "country": "Pologne"},
+        "parkwodny": {"name": "PARK WODNY POLANICA-ZDRÓJ", "place": "Polanica-Zdrój", "country": "Pologne"},
+        "progliss": {"name": "PROGLISS", "place": "", "country": "France"},
+        "puntacana": {"name": "CLUB MED PUNTA CANA", "place": "Punta Cana", "country": "République dominicaine"},
+        "sendaviva": {"name": "SENDAVIVA", "place": "Arguedas", "country": "Espagne"},
+        "slidesplash": {"name": "SLIDE & SPLASH", "place": "Estômbar", "country": "Portugal"},
+        "suntago": {"name": "SUNTAGO", "place": "Wrecza", "country": "Pologne"},
+        "collection" : {"name": "COLLECTION", "place": "Global", "country": "Global"}
+    },
+    "servicesFilter": {
+        "installation": "Installation",
+        "maintenance": "Maintenance"
+    },
+    "contact": {
+        "contactInfo": {
+            "address": "Adresse",
+            "office": "Bureau de branche",
+            "email": "Email",
+            "phone": "Téléphone",
+            "mainAddress": "Ul. Ludwika Rydygiera 8/609 01-793, Varsovie Pologne.",
+            "branchOffice": "Wróbla 6A, 02-736 Varsovie Pologne.",
+            "phoneNumberOne": "+48 795 564 824",
+            "phoneNumberTwo": "+48 731 736 446",
+            "phoneNumberThree": "+48 730 218 633"
+        },
+        "contactForm": {
+            "fullName": {"label": "Nom complet", "placeholder": "Entrez votre nom complet"},
+            "email": {"label": "Email", "placeholder": "Entrez votre email"},
+            "subject": {"label": "Sujet", "placeholder": "Entrez le sujet"},
+            "message": {"label": "Message", "placeholder": "Entrez votre message"},
+            "submitBtn": "Soumettre"
+        },
+        "map": {
+            "address": "Wróbla 6A, 02-736 Varsovie, Pologne."
+        },
+        "error": {
+            "requiredName": "Nom complet requis",
+            "validName": "Entrez un nom complet valide",
+            "requiredEmail": "Email requis",
+            "validEmail": "Entrez un email valide",
+            "requiredSubject": "Sujet requis",
+            "validSubject": "Le sujet doit comporter au moins deux caractères",
+            "requiredMessage": "Message requis",
+            "validMessage": "Le message doit comporter au moins deux caractères"
+        },
+        "modal": {
+            "success": {
+                "title": "Merci de nous avoir contactés !", 
+                "message": "Votre message a été envoyé avec succès. Nous apprécions votre intérêt et nous vous répondrons dans les plus brefs délais."
+            },
+            "error": {
+                "title": "Oups ! Quelque chose s'est mal passé",
+                "message": "Nous avons rencontré une erreur lors de l'envoi de votre message. Veuillez réessayer ou nous contacter directement via nos informations de contact."
+            },
+            "okayBtn": "D'accord"
+        }
+    },
+    "notFound": {
+        "pageNotFound": "Page non trouvée",
+        "goBack": "Retourner"
+    },
+    "cookieConsent": {
+        "firstBannerTitle": "Nous utilisons des cookies !",
+        "firstBannerText": "Ce site utilise des cookies essentiels pour garantir son bon fonctionnement, ainsi que des cookies de suivi pour analyser comment vous interagissez avec lui. Ces derniers ne seront activés qu'après votre consentement.",
+        "firstBannerLink": "Laissez-moi choisir",
+        "firstBannerAccept": "Accepter tous",
+        "firstBannerReject": "Rejeter tous",
+        "secondBannerTitle": "Gérez vos préférences",
+        "secondBannerSubtitle": "Utilisation des cookies",
+        "secondBannerText": "Nous utilisons des cookies pour garantir les fonctionnalités de base du site et améliorer votre expérience en ligne. Vous avez la possibilité de consentir ou de vous désinscrire pour chaque catégorie de cookies à tout moment. Pour plus de détails concernant les cookies et autres données sensibles, veuillez consulter notre",
+        "secondBannerLink": "politique de confidentialité.",
+        "firstAccordionTitle": "Cookies strictement nécessaires",
+        "firstAccordionText": "Ces cookies sont essentiels au bon fonctionnement de notre site. Sans ces cookies, le site ne fonctionnerait pas correctement.",
+        "secondAccordionTitle": "Cookies de performance et d'analyse",
+        "secondAccordionText": "Ces cookies permettent au site de se souvenir des choix que vous avez faits dans le passé.",
+        "gaDescription": "Utilisé par Google Analytics pour distinguer un visiteur d'un autre et dure 2 ans.",
+        "gatDescription": "Utilisé par Google Analytics pour limiter la collecte de données sur les sites à fort trafic. Ce cookie expire après 1 jour.",
+        "gidDescription": "Utilisé par Google Analytics pour générer des données statistiques sur l'utilisation du site par le visiteur. Ce cookie expire après 1 jour.",
+        "lngDescription": "Stocke la langue préférée de l'utilisateur pour le site. Il expire après la fin de la session.",
+        "darkModeDescription": "Enregistre la préférence de l'utilisateur pour l'affichage en mode sombre ou clair. Il expire après la fin de la session.",
+        "thirdAccordionTitle": "Cookies de publicité et de ciblage",
+        "thirdAccordionText": "Ces cookies collectent des informations sur la façon dont vous utilisez le site, les pages que vous avez visitées et les liens sur lesquels vous avez cliqué. Toutes les données sont anonymisées et ne peuvent pas être utilisées pour vous identifier.",
+        "secondBannerSave": "Enregistrer les paramètres"
+    },
+    "privacy": {
+        "lastUpdated": "Dernière mise à jour :",
+        "privacyTextOne": "Cette politique de confidentialité explique comment --Waveast Sp. z o.o.-- collecte, utilise et partage vos informations lorsque vous utilisez notre site web --https://waveast.pl/--.",
+        "privacyTextTwo": "En utilisant notre site, vous acceptez que nous puissions collecter et utiliser vos informations comme décrit dans cette politique. Nous pouvons modifier cette politique de confidentialité à tout moment sans vous en informer au préalable. Nous publierons la politique mise à jour sur notre site. La nouvelle politique entrera en vigueur 180 jours après sa publication, et votre utilisation continue du site signifie que vous acceptez la nouvelle politique. Nous vous recommandons de vérifier cette page régulièrement pour des mises à jour.",
+        "privacyOneTitle": "Comment collectons-nous vos données ?",
+        "privacyOneParagraphOne": "Nous recueillons des informations vous concernant lorsque vous utilisez notre site. Cela inclut lorsque vous :",
+        "privacyOneFirstListItem": "1- Nous contactez pour demander nos services.",
+        "privacyOneSecondListItem": "2- Vous abonnez à notre newsletter.",
+        "privacyOneThirdListItem": "3- Nous envoyez votre CV ou votre candidature.",
+        "privacyOneParagraphTwo": "Dans la section --Contact--, vous devrez remplir un simple formulaire avec vos coordonnées. En cliquant sur le bouton --Envoyer--, vous acceptez que nous puissions utiliser vos informations pour vous contacter par email ou par d'autres méthodes.",
+        "privacyOneParagraphThree": "Dans la section --Newsletter--, vous pouvez vous inscrire en fournissant votre adresse email. En cliquant sur le bouton --S'abonner--, vous acceptez que nous puissions utiliser votre email pour vous envoyer des newsletters et d'autres informations.",
+        "privacyOneParagraphFour": "Vous avez le droit d'accéder à vos informations et pouvez nous demander de les mettre à jour ou de les supprimer en nous contactant via le formulaire sur notre page de contact.",
+        "privacyTwoTitle": "Quelles informations collectons-nous ?",
+        "privacyTwoParagraphOne": "Les informations personnelles que nous collectons peuvent inclure :",
+        "privacyTwoFirstListItem": "1- Votre nom.",
+        "privacyTwoSecondListItem": "2- Votre adresse email.",
+        "privacyTwoThirdListItem": "3- Votre pays.",
+        "privacyTwoFourthListItem": "4- Votre adresse IP.",
+        "privacyTwoFifthListItem": "5- Informations sur les pages que vous visitez sur notre site.",
+        "privacyThreeTitle": "Comment utilisons-nous vos données ?",
+        "privacyThreeParagraphOne": "Nous utilisons vos données pour :",
+        "privacyThreeFirstListItem": "1- Répondre à vos demandes concernant nos services.",
+        "privacyThreeSecondListItem": "2- Traiter votre candidature.",
+        "privacyThreeThirdListItem": "3- Vous informer des changements dans notre entreprise.",
+        "privacyThreeFourthListItem": "4- Vous envoyer des newsletters si vous avez accepté de les recevoir.",
+        "privacyThreeFifthListItem": "5- Communiquer avec vous pendant les négociations.",
+        "privacyThreeParagraphTwo": "Nous conserverons vos informations uniquement aussi longtemps que nécessaire pour ces activités.",
+        "privacyFourTitle": "Qui a accès à vos données ?",
+        "privacyFourParagraphOne": "Vos données seront stockées en toute sécurité par --Waveast Sp. z o.o.-- Nous ne vendrons ni partagerons vos informations avec des tiers. Nous prenons les mesures nécessaires pour protéger vos données contre la perte, l'utilisation abusive ou les modifications.",
+        "privacyFiveTitle": "Comment accéder, mettre à jour ou supprimer vos données ?",
+        "privacyFiveParagraphOne": "Si vous souhaitez accéder, mettre à jour ou supprimer vos informations, vous pouvez nous envoyer un email à --we'at'waveast.pl-- ou utiliser notre formulaire de contact à --https://waveast.pl/contact--",
+        "privacyFiveParagraphTwo": "Nous pourrions avoir besoin de vérifier votre identité avant de pouvoir traiter votre demande de mise à jour ou de suppression de vos données."
+    },
+    "bhp": {
+        "paragraphOne" : "La sécurité de tous les employés de Waveast Installation & Park Services et des invités séjournant dans les locaux de l'entreprise est l'objectif principal du Conseil d'Administration et de l'ensemble de la direction de l'entreprise. Prendre soin de la vie et de la santé des employés et des invités, ainsi que porter une attention à la sécurité de chaque poste de travail sont les éléments de base de ce système. Ce système fait l'objet d'un processus de développement et d'amélioration continue.",
+        "subTitleOne": "Nous atteignons ces objectifs en :",
+        "listOne" : [
+            "respectant les exigences contenues dans les réglementations légales et autres applicables à notre entreprise.",
+            "utilisant des soins de santé préventifs.",
+            "s'efforçant d'améliorer constamment les conditions de sécurité au travail.",
+            "améliorant continuellement les activités de santé et de sécurité au travail.",
+            "élevant la sensibilisation et les qualifications des employés dans le domaine de la santé et de la sécurité au travail.",
+            "prévenant les accidents du travail, les quasi-accidents et les maladies professionnelles.",
+            "équipant les employés de matériel de protection individuelle de haute qualité.",
+            "utilisant des machines, des dispositifs, des outils et des équipements conformes aux exigences des normes de sécurité.",
+            "encourageant l'implication active des employés pour garantir l'efficacité du système.",
+            "menant une communication interne et externe efficace dans le domaine de la santé et de la sécurité au travail.",
+            "mettant en œuvre des actions préventives et correctives."
+        ],
+        "subTitleTwo": "Nous évaluons l'efficacité du système en :",
+        "listTwo": [
+            "surveillant les jours sans accident du travail.",
+            "surveillant le nombre d'événements d'accidents.",
+            "observant le comportement des employés afin de détecter les comportements et actions qui causent des menaces.",
+            "surveillant les concentrations et les intensités des facteurs nuisibles à la santé sur les lieux de travail.",
+            "analysant la documentation et les enregistrements concernant la santé et la sécurité au travail."
+        ],
+        "paragraphTwo": "Le Conseil d'Administration de Waveast Installation & Park Services s'engage à sécuriser les ressources garantissant la mise en œuvre de la politique adoptée, mise en œuvre et maintenue, et s'assure qu'elle est comprise et acceptée par les employés de l'entreprise et mise à disposition des parties externes intéressées."
+    }
+}
