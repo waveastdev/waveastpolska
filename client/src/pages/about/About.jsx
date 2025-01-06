@@ -58,8 +58,7 @@ function About() {
         <Helmet>
             <title>About - Waveast</title>
             <link rel="canonical" href="/about" />
-            <meta name="description" 
-                content="Waveast Installation & Park Services is a leading company based in Warsaw, Poland, specializing in a wide range of services for amusement items and water parks. Since our establishment in 2021, we have been dedicated to providing exceptional engineering, installation, maintenance, expansion, renovation, and consultancy services." />
+            <meta name="description" content="Founded in Warsaw, Poland, Waveast provides high-quality amusement & entertainment solutions for hotels, theme parks, water parks & camping sites. We offer a variety of services with over 10 years of experience and a global presence." />
         </Helmet>
         <div className="about__page">
             <PageHeader pageTitle={t(`pageTitles.about`)} />

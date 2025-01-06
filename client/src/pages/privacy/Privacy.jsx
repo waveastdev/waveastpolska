@@ -47,10 +47,9 @@ function Privacy() {
 
     <>
     <Helmet>
-        <title>Privacy Policy - Waveast</title>
-        <link rel="canonical" href="/contact" />
-        <meta name="description" 
-            content="Waveast Installation & Park Services is a company that provides engineering, installation, maintenance, expansion, renovation, and consultancy services for amusement items and water parks. It was created in 2021 in Warsaw, Poland." />
+        <title>Privacy - Waveast</title>
+        <link rel="canonical" href="/privacy" />
+        <meta name="description" content="This Privacy Policy explains how Waveast Sp. z o.o. collects, uses, and shares your information when you use our website (https://waveast.pl/)." />
     </Helmet>
     <div className="privacy__page">
         <div className="privacy">

@@ -75,8 +75,7 @@ function Contact() {
         <Helmet>
             <title>Contact - Waveast</title>
             <link rel="canonical" href="/contact" />
-            <meta name="description" 
-                content="Waveast Installation & Park Services is a company that provides engineering, installation, maintenance, expansion, renovation, and consultancy services for amusement items and water parks. It was created in 2021 in Warsaw, Poland." />
+            <meta name="description" content="We'd love to hear from you! Reach out to Waveast Installation & Park Services to discuss your water park or amusement attraction project." />
         </Helmet>
         <div className="contact__page">
             <PageHeader pageTitle={t(`pageTitles.contact`)} />

@@ -13,8 +13,7 @@ function Home() {
         <Helmet>
             <title>Home - Waveast</title>
             <link rel="canonical" href="/" />
-            <meta name="description" 
-                content="Waveast Installation & Park Services is a company that provides engineering, installation, maintenance, expansion, renovation, and consultancy services for amusement items and water parks. It was created in 2021 in Warsaw, Poland." />
+            <meta name="description" content="Waveast Installation & Park Services is a company that provides engineering, installation, maintenance, expansion, renovation, and consultancy services for amusement items and water parks." />
         </Helmet>
         <div className="home__page">
             <Landing />

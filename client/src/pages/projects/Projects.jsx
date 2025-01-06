@@ -56,9 +56,7 @@ function Projects() {
       <Helmet>
         <title>Projects - Waveast</title>
         <link rel="canonical" href="/projects" />
-        <meta
-          name="description"
-          content="We have been inâ€¦ Aqua Magica | Spain Land of Legends | Turkey Aqua Park | Albania Aquaterra | Moldova Baghdadland | Iraq Cartoon Network Amazone | Thailand Hotel Izvor | Serbia Marina Aquapark Hillah | Iraq Suntago Waterpark | Poland Maritim Crystal Beach Hotel | Mauritius Oasis Aquapark | Turkey The Wave Coventry | England"
+        <meta name="description" content="Waveast Installation & Park Services has successfully completed numerous projects around the world, demonstrating our expertise in creating exceptional amusement attractions and water parks."
         />
       </Helmet>
       <div className="projects__page">
