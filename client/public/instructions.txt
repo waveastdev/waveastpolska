@@ -29,3 +29,10 @@
     - Click on Personal Access Token Tab then Tokens (Classic).
     - Generate new Token (Classic).
 
+# Adding a Custom Domain:
+1- Go to the dashboard of your Domain Registrar.
+2- Select the Domain you want to Add.
+3- On Vercel's overview, choose the client of your project.
+4- Select Domains Tab.
+5- Add your Custom Domain (As it is written in the domain registrar).
+6- In your Domain Registrar, create A Record and CNAME Record and fill the info from the last result you got from Vercel.
