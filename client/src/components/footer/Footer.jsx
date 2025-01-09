@@ -16,7 +16,7 @@ const Footer = memo(function Footer() {
     const {t} = useTranslation()
 
     useEffect(() => {
-        setCatalogueLink(`https://waveast.pl/catalogues/catalogue_${currentLanguage}.pdf`)
+        setCatalogueLink(`https://waveast.pl/pdf/${currentLanguage}.pdf`)
     }, [currentLanguage])
 
     return (
