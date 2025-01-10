@@ -16,6 +16,7 @@ import basenprof from "../../assets/basenprof.png"
 import isaba from "../../assets/isaba.jpg"
 import apex from "../../assets/Apex.jpg"
 import dof from "../../assets/DOF.jpg"
+import oasys from "../../assets/oasys.jpeg"
 import "./about.css"
 
 const reasons = [
@@ -42,9 +43,10 @@ const items = [
     {id: 2, src: isaba, altKey: "isabaAlt", category: "partners"},
     {id: 3, src: apex, altKey: "apexAlt", category: "partners"},
     {id: 4, src: dof, altKey: "dofAlt", category: "partners"},
-    {id: 5, src: memberships, altKey: "memberships", category: "memberships"},
-    {id: 6, src: iaapa, altKey: "iaapaAlt", category: "memberships"},
-    {id: 7, src: basenprof, altKey: "basenprofAlt", category: "memberships"}, 
+    {id: 5, src: oasys, altKey: "oasysAlt", category: "partners"}, 
+    {id: 6, src: memberships, altKey: "memberships", category: "memberships"},
+    {id: 7, src: iaapa, altKey: "iaapaAlt", category: "memberships"},
+    {id: 8, src: basenprof, altKey: "basenprofAlt", category: "memberships"}, 
 ]
 
 function About() {
