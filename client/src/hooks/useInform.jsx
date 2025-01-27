@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react"
 import { FaCheck } from "react-icons/fa"
+import useBodyOverflow from "./useBodyOverflow"
 
 const useInform = (title, message, okay) => {
     
@@ -17,6 +18,8 @@ const useInform = (title, message, okay) => {
         promise?.resolve(false)
         handleClose()
     }
+
+    useBodyOverflow(promise !== null)
 
     useEffect( () => {
         if(promise !== null) {

@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState, useCallback } from "react"
 import { Helmet } from "react-helmet-async"
 import { useTranslation } from "react-i18next"
 import { wrapCompanyName } from "../../utils/wrapCompanyName"
@@ -8,15 +8,11 @@ import Mission from "../../components/svg/Mission"
 import Values from "../../components/svg/Values"
 import PageHeader from "../../components/pageHeader/PageHeader"
 import SpecialHeadingTwo from "../../components/specialHeadingTwo/SpecialHeadingTwo"
-import Partmemb from "../../components/partmemb/Partmemb"
-import partners from "../../assets/partners.png"
-import memberships from "../../assets/memberships.png"
-import iaapa from "../../assets/IAAPAMember.png"
-import basenprof from "../../assets/basenprof.png"
-import isaba from "../../assets/isaba.jpg"
-import apex from "../../assets/Apex.jpg"
-import dof from "../../assets/DOF.jpg"
-import oasys from "../../assets/oasys.jpeg"
+import Wawist from "../../components/svg/Wawist"
+import levent from "../../assets/team/levent.png"
+import fatih from "../../assets/team/fatih.png"
+import DetailModal from "../../components/detailModal/DetailModal"
+import useBodyOverflow from "../../hooks/useBodyOverflow"
 import "./about.css"
 
 const reasons = [
@@ -38,22 +34,38 @@ const values = [
     {id: 6, valueKey: "companyValues.paragraph.5"}
 ]
 
-const items = [
-    {id: 1, src: partners, altKey: "partners", category: "partners"},
-    {id: 2, src: isaba, altKey: "isabaAlt", category: "partners"},
-    {id: 3, src: apex, altKey: "apexAlt", category: "partners"},
-    {id: 4, src: dof, altKey: "dofAlt", category: "partners"},
-    {id: 5, src: oasys, altKey: "oasysAlt", category: "partners"}, 
-    {id: 6, src: memberships, altKey: "memberships", category: "memberships"},
-    {id: 7, src: iaapa, altKey: "iaapaAlt", category: "memberships"},
-    {id: 8, src: basenprof, altKey: "basenprofAlt", category: "memberships"}, 
-]
-
 function About() {
 
     const {t} = useTranslation()
     const projectCount = getProjectsCount()
     const countryCount = countUniqueCountries()
+
+    const [showDetailModal, setShowDetailModal] = useState(false)
+    const [modalContent, setModalContent] = useState({ title: "", content: [] })
+
+    useBodyOverflow(showDetailModal)
+
+    const teamMembers = [
+        { name: t("teamMembers.0.name"), title: t("teamMembers.0.title"), alt: t("teamMembers.0.alt"), image: fatih, learnMore: t("teamMembers.0.learnMore"),
+          content: [t("teamMembers.0.content.0"), t("teamMembers.0.content.1"), t("teamMembers.0.content.2")]
+        },
+        { name: t("teamMembers.1.name"), title: t("teamMembers.1.title"), alt: t("teamMembers.1.alt"), image: levent, learnMore: t("teamMembers.1.learnMore"),
+          content: [t("teamMembers.1.content.0"), t("teamMembers.1.content.1"), t("teamMembers.1.content.2")]
+        },
+    ]
+    
+    const openDetailModal = useCallback(() => {
+        setShowDetailModal(true)
+    }, [])
+
+    const closeDetailModal = useCallback(() => {
+        setShowDetailModal(false)
+    }, [])
+
+    const learnMore = (name, content) => {
+        setModalContent({ title: name, content })
+        openDetailModal()
+    }
 
     return (
         <>
@@ -123,13 +135,36 @@ function About() {
                         <p>{wrapCompanyName(t(`companyPeople.0`))}</p>
                         <p>{wrapCompanyName(t(`companyPeople.1`))}</p>
                     </div>
+                    <div className="company__team">
+                        {teamMembers.map((member, index) => (
+                            <div className="team__member" key={index}>
+                                <div className="team__member-image">
+                                    <img className="team__member-img" src={member.image} alt={member.alt} />
+                                </div>
+                                <div className="team__member-name">{member.name}</div>
+                                <div className="team__member-title">{member.title}</div>
+                                <button className="team__member-btn" onClick={() => learnMore(member.name, member.content)} >
+                                    {member.learnMore}
+                                </button>
+                            </div>
+                        ))}
+                    </div>
                 </div>
             </div>
             <div className="section__padding--block container">
-                <SpecialHeadingTwo title={t(`specialHeadings.partners&memberships`)} />
-                <Partmemb items={items} />
+                <SpecialHeadingTwo title={t(`specialHeadings.behindName`)} />
+                <div className="company__name">
+                    <div className="company__name-para company__people">
+                        <p>{wrapCompanyName(t(`companyName.0`))}</p>
+                        <p>{wrapCompanyName(t(`companyName.1`))}</p>
+                    </div>
+                    <div className="company__name-svg">
+                        <Wawist />
+                    </div>
+                </div>
             </div>
         </div>
+        <DetailModal title={modalContent.title} content={modalContent.content} showDetailModal={showDetailModal} closeDetailModal={closeDetailModal} />
         </>
     )
 }

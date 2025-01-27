@@ -96,6 +96,7 @@
         "services": {"title": "Usługi", "subTitle": "Kompleksowe usługi dopasowane do potrzeb"},
         "projects": {"title": "Projekty", "subTitle": "Nasze realizacje na całym świecie"},
         "faqs": {"title": "F.A.Q.", "subTitle": "Najczęściej zadawane pytania"},
+        "partners&memberships": {"title": "Partnerzy i Członkostwa", "subTitle": "Sieć wspólnych wartości"},
         "newsletter": {"title": "Newsletter", "subTitle": "Bądź pierwszym, który się dowie"}
     },
     "faqs": {
@@ -145,6 +146,7 @@
     "apexAlt": "Logo partnera APEX",
     "dofAlt": "Logo partnera DOF",
     "oasysAlt": "Logo partnera OASYS",
+    "sommarlandAlt": "Logo partnera SOMMARLAND",
     "partners": "partnerzy",
     "memberships": "członkostwa",
     "pageTitles": {
@@ -159,7 +161,7 @@
         "whyWe": "Dlaczego my?",
         "visionMissionValues": "Nasze zobowiązanie",
         "people": "Nasi ludzie",
-        "partners&memberships": "Nasi partnerzy i członkostwa",
+        "behindName": "Za nazwą",
         "servicesGallery": "Galeria"
     },
     "companyVision": {
@@ -178,6 +180,10 @@
         "Waveast Installation & Park Services została założona przez dwóch inżynierów z ponad dziesięcioletnim doświadczeniem w branży. Waveast ma globalny zasięg dzięki dynamicznemu zespołowi technicznemu oraz strategicznym partnerstwom z firmami na całym świecie.",
         "Dzięki zorientowanemu na Klienta zespołowi obsługi posprzedażowej oraz kompetentnym projektantom i inżynierom Waveast jest w stanie zapewnić swoim Klientom usługi najwyższej jakości."
     ],
+    "companyName": [
+        "Współzałożyciele Levent i Fatih rozpoczęli swoją działalność w różnych krajach. Jeden w Polsce, drugi w Turcji, często musieli podróżować, aby spotkać się i pracować nad wspólną wizją firmy. Nazwa Waveast nawiązuje do tych początków - pierwotnie pochodziła od kodów lotnisk na ich biletach, WAW dla Warszawy i IST dla Stambułu. IST stało się EAST jako nawiązanie do wschodnich korzeni założycieli, ale nazwa WAWEAST nie brzmiała do końca dobrze, więc kontynuowali burzę mózgów. Posuwając się naprzód, znaleźli idealne rozwiązanie: inspirowane wodnym motywem wielu ich usług 'WAWEAST' przekształciło się w 'WAVEAST', zabawną nazwę, która pokazuje ich zaangażowanie w innowacje, doskonałość i (oczywiście) wodną zabawę!",
+        "Waveast to więcej niż tylko nazwa - to świadectwo ich podróży, wiedzy i niezachwianego zaangażowania w dostarczanie wyjątkowej obsługi, z odrobiną humoru i kreatywności. Jest strategiczna i zabawna, tak jak oni!"
+    ],
     "aboutCompany": [
         "Założona w {{yearFounded}} roku w tętniącej życiem Warszawie, Waveast to firma, która w pełni angażuje się w branżę rozrywki i atrakcji turystycznych. Wizja i pasja naszego założyciela ukształtowały naszą drogę, inspirując nas do tworzenia ekscytujących doświadczeń dla ludzi na całym świecie. Dysponujemy utalentowanym zespołem liczącym ponad {{teamSize}} profesjonalistów, którzy łączą wiedzę i zaangażowanie, aby dostarczać rozwiązania najwyższej jakości dla hoteli, parków tematycznych, parków wodnych i ośrodków campingowych.",
         "Nasz zespół składa się z wykwalifikowanych inżynierów, instalatorów, techników i pracowników biurowych, którzy współpracują, aby każdy projekt spełniał nasze wysokie standardy. Z ponad dziesięcioletnim doświadczeniem zbiorowym jesteśmy dumni z naszej efektywności i skuteczności. To zaangażowanie pozwoliło nam stworzyć zróżnicowane portfolio ponad {{projectCount}} udanych projektów w {{countryCount}} krajach.",
@@ -191,21 +197,31 @@
         "Waveast Installation & Park Services z powodzeniem zrealizowało liczne projekty na całym świecie, co świadczy o naszej wiedzy i umiejętnościach w tworzeniu wyjątkowych atrakcji rozrywkowych i parków wodnych. Nasza obecność na całym świecie odzwierciedla nasze zaangażowanie w dążeniu do doskonałości oraz zdolność do spełniania różnorodnych potrzeb klientów w różnych warunkach.",
         "W Waveast rozumiemy, że każdy projekt jest unikalny, i angażujemy się w dostarczanie niezapomnianych doświadczeń dla naszych klientów i ich gości."
     ],
+    "teamMembers": [
+        {
+            "name": "FATİH GÜRSOY", 
+            "title": "Dyrektor Zarządzający i Współwłaściciel", 
+            "alt": "Zdjęcie Fatiha", 
+            "learnMore": "Dowiedz się więcej",
+            "content": [
+                "Urodzony w 1984 roku w Stambule, Fatih jest jednym z dwóch założycieli i współwłaścicieli firmy Waveast. Uwielbia podróżować po świecie i jest dumny z tego, że do końca roku odwiedzi 50 krajów. Obecnie mieszkający w Warszawie, pracuje w branży parków rozrywki i rozrywki na miejscu od 2011 roku, co idealnie pasuje do jego profilu i pasji.",
+                "Ponieważ matematyka i geografia są jego ulubionymi przedmiotami, nie jest zaskoczeniem, że zdecydował się na studia inżynierii lądowej, dziedziny z wieloma możliwościami podróży. Pozwoliło mu to na pracę przy projektach mieszkaniowych w Rosji i Turcji zaraz po ukończeniu studiów, oba te doświadczenia dały mu niezbędne narzędzia do pracy dla renomowanego tureckiego producenta zjeżdżalni wodnych. Natychmiast zakochał się w tej niszy i pozostał w firmie od 2011 do 2021 roku, całe 10 lat!",
+                "W 2021 roku nauczył się wszystkiego, co mógł, i nadszedł czas, aby iść dalej: wtedy wraz z Leventem założyli firmę Waveast, gdzie wykorzystuje swoją imponującą wiedzę branżową jako Dyrektor Zarządzający ds. Instalacji i Usług Parkowych. Jak można się spodziewać po miłośniku wodnej zabawy, lubi pływać – to nie wszystko jednak, lubi również inne sporty, takie jak siatkówka i piłka nożna, a ostatnio zaczął też grać w tenisa."
+            ]
+        },
+        {
+            "name": "LEVENT NEJAT ÇAKMAK", 
+            "title": "Dyrektor Zarządzający i Współwłaściciel", 
+            "alt": "Zdjęcie Leventa", 
+            "learnMore": "Dowiedz się więcej",
+            "content": [
+                "Urodzony i wychowany w Stambule, Levent zawsze wiedział, że chce zostać inżynierem. Te aspiracje zrealizował, decydując się na uzyskanie dyplomu z inżynierii geologicznej, jednej z najbardziej poszukiwanych specjalizacji w tamtym czasie. Zaraz po ukończeniu studiów zaczął pracować jako inżynier infrastruktury w Libii, gdzie pozostał przez trzy lata. Od tego czasu zbudował imponujące portfolio, w tym projekt budowy ośrodka narciarskiego w Azerbejdżanie i projekt budowy tunelu w Algierii.",
+                "Po powrocie do nauki, aby uzyskać dyplom z międzynarodowej inżynierii spawalniczej, w 2013 roku zaczął pracować dla tego samego producenta zjeżdżalni wodnych co Fatih. Tam obaj umocnili swoją 20-letnią przyjaźń, która wraz z ich wieloletnim doświadczeniem doprowadziła do decyzji o założeniu firmy Waveast w 2021 roku. Od tego czasu zarówno jego kariera, jak i życie osobiste rozkwitły — nie tylko jest współwłaścicielem i dyrektorem zarządzającym Waveast, ale także mężem i dumnym ojcem pięknej córki!",
+                "Jego pasja do inżynierii nie kończy się na pracy; w wolnym czasie lubi odwiedzać warsztaty samochodowe, gdyż jest samookreślonym miłośnikiem zabytkowych samochodów, który nie może nacieszyć się swoim garażem. To jednak nie zajmuje całego jego wolnego czasu, ponieważ lubi również gotować dla swojej rodziny i przyjaciół, co nigdy wcześniej nie przypuszczał, że będzie robił, dopóki jego żona nie podjęła tej decyzji za niego. Udowadniając, że zawsze warto próbować nowych rzeczy, zaskakująco przewyższył wszystkie oczekiwania w kuchni: jest w tym zarówno świetny, jak i to uwielbia!"
+            ]
+        }
+    ],
     "contactCompany": "W przypadku wszystkich zapytań, proszę skorzystać z formularza kontaktowego lub skontaktować się bezpośrednio przy użyciu podanych poniżej informacji kontaktowych.",
-    "projectsPlaces": {
-        "seville": "Sewilla, Hiszpania",
-        "antalya": "Antalya, Turcja",
-        "tirana": "Tirana, Albania",
-        "chisinau": "Kiszyniów, Mołdawia",
-        "baghdad": "Bagdad, Irak",
-        "pattaya": "Pattaya, Tajlandia",
-        "arandjelovac": "Arandjelovac, Serbia",
-        "babilon": "Babilon, Irak",
-        "wrecza": "Wręcza, Polska",
-        "quatreCocos": "Quatre Cocos, Mauritius",
-        "izmir": "Izmire, Turcja",
-        "coventry": "Coventry, Anglia"
-    },
     "projects": {
         "aguamagica": {"name": "AGUA MAGICA", "place": "Sewilla", "country": "Hiszpania"},
         "aquascope": {"name": "AQUASCOPE", "place": "Chasseneuil-du-Poitou", "country": "Francja"},

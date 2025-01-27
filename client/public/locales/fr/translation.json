@@ -96,6 +96,7 @@
         "services": {"title": "Services", "subTitle": "Services complets pour chaque besoin"},
         "projects": {"title": "Projets", "subTitle": "Notre présence à travers le monde"},
         "faqs": {"title": "F.A.Q.", "subTitle": "Questions fréquemment posées"},
+        "partners&memberships": {"title": "Partenaires et Adhésions", "subTitle": "Un réseau de valeurs partagées"},
         "newsletter": {"title": "Newsletter", "subTitle": "Soyez le premier à savoir"}
     },
     "faqs": {
@@ -145,6 +146,7 @@
     "apexAlt": "Logo partenaire APEX",
     "dofAlt": "Logo partenaire DOF",
     "oasysAlt": "Logo partenaire OASYS",
+    "sommarlandAlt": "Logo partenaire SOMMARLAND",
     "partners": "partenaires",
     "memberships": "adhésions",
     "pageTitles": {
@@ -159,7 +161,7 @@
         "whyWe": "Pourquoi nous ?",
         "visionMissionValues": "Notre engagement",
         "people": "Notre équipe",
-        "partners&memberships": "Nos partenaires & adhésions",
+        "behindName": "Derrière le nom",
         "servicesGallery": "Galerie"
     },
     "companyVision": {
@@ -178,6 +180,10 @@
         "Waveast Installation & Park Services a été fondée par deux ingénieurs ayant plus de dix ans d'expérience dans l'industrie. Grâce à une équipe technique dynamique et à des partenariats stratégiques à l'échelle mondiale, Waveast bénéficie d'une présence internationale.",
         "Avec une équipe après-vente axée sur le client, ainsi que des designers et des ingénieurs qualifiés, Waveast est en mesure de fournir un service de la plus haute qualité à ses clients."
     ],
+    "companyName": [
+        "Les co-fondateurs Levent et Fatih ont créé leur entreprise dans différents pays. Un en Pologne et l’autre en Turquie, ils devaient souvent faire la navette pour se réunir et travailler sur leur vision commune de l’entreprise. Le nom Waveast rappelle ces origines — il est venu à l’origine des codes d’aéroport sur leurs billets, WAW pour Varsovie et IST pour Istanbul. IST est devenu EAST pour rappeler les origines orientales des fondateurs, mais le nom WAWEAST ne sonnait pas tout à fait juste et ils ont continué à réfléchir. En avançant, ils ont trouvé la solution parfaite: inspiré par le thème aquatique d’un grand nombre de leurs services 'WAWEAST' est devenu 'WAVEAST', un nom ludique qui montre leur engagement à l’innovation, de l’excellence et (bien sûr) des plaisirs de l’eau!",
+        "Waveast est plus qu’un simple nom, c’est un témoignage de leur parcours, de leur expertise et de leur dévouement indéfectible à fournir un service exceptionnel, avec une touche d’humour et de créativité. C’est stratégique et amusant, tout comme eux!"
+    ],
     "aboutCompany": [
         "Fondée en {{yearFounded}} dans la dynamique ville de Varsovie, en Pologne, Waveast s'engage fermement envers l'industrie des loisirs et du divertissement. La vision et la passion de notre fondateur ont guidé notre parcours, nous inspirant à créer des expériences passionnantes pour les gens du monde entier. Avec une équipe talentueuse de plus de {{teamSize}} professionnels, nous combinons expertise et dévouement pour offrir des solutions de haute qualité pour les hôtels, parcs à thème, parcs aquatiques et sites de camping.",
         "Notre équipe se compose d'ingénieurs qualifiés, des installateurs, des réparateurs et de personnel administratif, tous travaillant ensemble pour garantir que chaque projet respecte nos standards élevés. Avec plus d'une décennie d'expérience collective, nous sommes fiers de notre efficacité et de notre performance opérationnelle. Cet engagement nous a permis de développer un portefeuille diversifié de plus de {{projectCount}} projets réussis dans {{countryCount}} pays.",
@@ -191,21 +197,31 @@
         "Waveast Installation & Park Services a réalisé de nombreux projets à travers le monde, démontrant ainsi notre expertise dans la création d'attractions et de parcs aquatiques exceptionnels. Notre présence mondiale reflète notre engagement envers l'excellence et notre capacité à répondre aux besoins divers de nos clients dans différents environnements.",
         "Chez Waveast, nous comprenons que chaque projet est unique, et nous nous engageons à offrir des expériences mémorables à nos clients ainsi qu'à leurs propres clients."
     ],
+    "teamMembers": [
+        {
+            "name": "FATİH GÜRSOY", 
+            "title": "Directeur général et copropriétaire", 
+            "alt": "Photo de Fatih", 
+            "learnMore": "En savoir plus",
+            "content": [
+                "Né à Istanbul en 1984, Fatih est l’un des deux fondateurs et copropriétaires de Waveast. Il aime voyager à travers le monde et est fier de dire qu’il atteindra la barre des 50 pays visités d’ici la fin de l’année. Aujourd’hui basé à Varsovie, il travaille dans le parc d’attractions et le créneau du divertissement sur place depuis 2011, ce qui correspond parfaitement à son profil et à ses passions.",
+                "Les mathématiques et la géographie étant ses matières préférées, il n’est pas surprenant qu’il ait décidé d’étudier le génie civil, un domaine offrant de nombreuses possibilités de voyage. Cela lui a permis de travailler sur des projets de logement en Russie et en Turquie dès la sortie de l’université, deux expériences qui lui ont donné les outils nécessaires pour travailler pour un fabricant turc de toboggans aquatiques de renommée mondiale. Il est immédiatement tombé amoureux de la niche et est resté dans l’entreprise de 2011 à 2021, soit 10 ans!",
+                "En 2021, il avait appris tout ce qu’il pouvait et il était temps de passer à autre chose : c’est à ce moment-là que Levent et lui ont créé Waveast, où il utilise son impressionnant savoir-faire industriel en tant que directeur général de l’installation et des services du parc. Comme on pouvait s’y attendre d’un amateur de plaisir aquatique, il aime nager - ce n’est pas tout, il aime beaucoup d’autres sports comme le volleyball et le football, et a récemment commencé à jouer au tennis."
+            ]
+        },
+        {
+            "name": "LEVENT NEJAT ÇAKMAK", 
+            "title": "Directeur général et copropriétaire", 
+            "alt": "Photo de Levent", 
+            "learnMore": "En savoir plus",
+            "content": [
+                "Né et élevé à Istanbul, Levent a toujours su qu’il voulait être ingénieur. Ces aspirations se sont concrétisées lorsqu’il a choisi d’obtenir son diplôme en génie géologique, l’une des spécialisations les plus recherchées à l’époque. Il a commencé à travailler comme ingénieur en infrastructure en Libye dès la sortie de l’université, choisissant d’y rester pendant trois ans. Depuis lors, il a construit un portefeuille impressionnant, y compris un projet de construction d’une station de ski en Azerbaïdjan et la construction d’un tunnel en Algérie.",
+                "Après être retourné aux études pour obtenir un diplôme en génie du soudage international, il a commencé à travailler pour le même fabricant de toboggans hydrauliques que Fatih en 2013. Là, les deux ont cimenté leur amitié qui dure maintenant depuis 20 ans, ce qui, parallèlement à leurs années d’expérience pertinente, a conduit à leur décision de lancer Waveast en 2021. Depuis lors, sa carrière et sa vie personnelle ont explosé - non seulement il est copropriétaire et directeur général de Waveast, mais il est également marié et père fier d’une belle fille!",
+                "Sa passion pour l’ingénierie ne s’arrête pas au travail, cependant, pendant son temps libre, il aime visiter les services automobiles car il est un accro aux voitures anciennes auto-défini qui ne peut pas se lasser de son garage. Cela dit, cela ne prend pas tout son temps libre car il aime aussi cuisiner pour sa famille et ses amis, une activité qu’il n’aurait jamais pensé faire avant que sa femme ne lui enlève le choix. Ici pour prouver qu’il est toujours bon d’essayer de nouvelles choses, il a étonnamment dépassé toutes les attentes dans la cuisine : il est à la fois doué et fan!"
+            ]
+        }
+    ],
     "contactCompany": "Pour toutes les demandes, utilisez le formulaire de contact ou contactez-nous directement en utilisant les informations de contact fournies ci-dessous.",
-    "projectsPlaces": {
-        "seville": "Séville, Espagne",
-        "antalya": "Antalya, Turquie",
-        "tirana": "Tirana, Albanie",
-        "chisinau": "Chisinau, Moldavie",
-        "baghdad": "Bagdad, Irak",
-        "pattaya": "Pattaya, Thaïlande",
-        "arandjelovac": "Arandjelovac, Serbie",
-        "babilon": "Babylone, Irak",
-        "wrecza": "Wrecza, Pologne",
-        "quatreCocos": "Quatre Cocos, Maurice",
-        "izmir": "Izmir, Turquie",
-        "coventry": "Coventry, Angleterre"
-    },
     "projects": {
         "aguamagica": {"name": "AGUA MAGICA", "place": "Séville", "country": "Espagne"},
         "aquascope": {"name": "AQUASCOPE", "place": "Chasseneuil-du-Poitou", "country": "France"},

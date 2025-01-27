@@ -57,6 +57,7 @@
         "services": {"title": "Services", "subTitle": "Comprehensive services for every need"},
         "projects": {"title": "Projects", "subTitle": "Our projects presence across the globe"},
         "faqs": {"title": "F.A.Q.", "subTitle": "Frequently asked questions"},
+        "partners&memberships": {"title": "Partners & Memberships", "subTitle": "A network of shared values"},
         "newsletter": {"title": "Newsletter", "subTitle": "Be the first one to know"}
     },
     "faqs": {
@@ -106,6 +107,7 @@
     "apexAlt": "APEX partner logo",
     "dofAlt": "DOF partner logo",
     "oasysAlt": "OASYS partner logo",
+    "sommarlandAlt": "SOMMARLAND partner logo",
     "partners": "partners",
     "memberships": "memberships",
     "pageTitles": {
@@ -120,7 +122,7 @@
         "whyWe": "Why us?",
         "visionMissionValues": "Our commitment",
         "people": "Our people",
-        "partners&memberships": "Our partners & memberships",
+        "behindName": "Behind the name",
         "servicesGallery": "Gallery"
     },
     "companyVision": {
@@ -139,6 +141,10 @@
         "Waveast Installation & Park Services was founded by two engineers with over ten years of industry experience. Additionally, Waveast has a global presence, thanks to its dynamic technical team and strategic partnerships with partners worldwide.",
         "With a customer-focused after-sales team, along with skilled designers and engineers, Waveast is able to provide the highest quality service to its clients."
     ],
+    "companyName": [
+        "Co-founders Levent and Fatih started their business based in different countries. One in Poland and one in Türkiye, they often had to commute to get together and work on their shared vision for the company. The name Waveast calls back to these origins—it originally came from the airport codes on their tickets, WAW for Warsaw and IST for Istanbul. IST became EAST as a callback to the eastern origins of the founders, but the name WAWEAST didn’t sound quite right so they continued to brainstorm it. Moving forward they found the perfect solution: inspired by the aquatic theme of a lot of their services 'WAWEAST' turned into 'WAVEAST', a playful name that shows their commitment to innovation, excellence, and (of course) water fun!",
+        "Waveast is more than just a name — it’s a testament to their journey, expertise, and unwavering dedication to providing exceptional service, with a touch of humor and creativity. It is strategic and fun, just like them!"
+    ],
     "aboutCompany": [
         "Founded in {{yearFounded}} in the vibrant city of Warsaw, Poland, Waveast is committed to the amusement and entertainment industry. Our founder's vision and passion have shaped our journey, inspiring us to create exciting experiences for people worldwide. With a talented team of over {{teamSize}} professionals, we combine expertise and dedication to deliver high-quality solutions for hotels, theme parks, waterparks, and camping sites.",
         "Our team includes skilled engineers, installers, technicians, and office staff, all working together to ensure that every project meets our high standards. With more than a decade of collective experience, we take pride in our efficiency and effectiveness. This commitment has allowed us to build a diverse portfolio of over {{projectCount}} successful projects across {{countryCount}} countries.",
@@ -152,21 +158,31 @@
         "Waveast Installation & Park Services has successfully completed numerous projects around the world, demonstrating our expertise in creating exceptional amusement attractions and water parks. Our global presence reflects our commitment to excellence and our ability to meet diverse client needs across various environments.",
         "At Waveast, we understand that each project is unique, and we are dedicated to delivering memorable experiences for our clients and their customers."
     ],
+    "teamMembers": [
+        {
+            "name": "FATİH GÜRSOY", 
+            "title": "Managing Director & Co-owner", 
+            "alt": "Fatih's photo", 
+            "learnMore": "Learn more",
+            "content": [
+                "Born in Istanbul in 1984, Fatih is one of the two founders and co-owners of Waveast. He loves to travel around the world and is proud to say that he’ll hit the 50 countries visited mark by the end of the year. Now based in Warsaw, he has been working in the amusement park and onsite entertainment niche since 2011, a perfect fit for his profile and passions.",
+                "As math and geography are his favorite subjects, it comes as no surprise that he decided to study Civil Engineering, a field with ample opportunity for travel. This allowed him to go work on housing projects in Russia and Türkiye straight out of university, both experiences that gave him the necessary tools to move on to work for a world renowned Turkish water slide manufacturer. He instantly fell in love with the niche and stayed with the company from 2011-2021, a whole 10 years!",
+                "By 2021 he had learned all he could and it was time to move on: that’s when he and Levent established Waveast, where he uses his impressive industry know-how as Managing Director of Installation and Park Services. As expected from a lover of water fun, he likes to swim—that’s not all though, he likes a bunch of other sports like volleyball and soccer, and has recently taken up tennis."
+            ]
+        },
+        {
+            "name": "LEVENT NEJAT ÇAKMAK", 
+            "title": "Managing Director & Co-owner", 
+            "alt": "Levent's photo", 
+            "learnMore": "Learn more",
+            "content": [
+                "Born and raised in Istanbul, Levent always knew he wanted to be an engineer. These aspirations came to fruition when he chose to get his degree in geological engineering, one of the most sought out specializations at the time. He started working as an infrastructure engineer in Libya right out of college, choosing to stay there for three years. Since then he has built an impressive portfolio, including a ski resort construction project in Azerbaijan and the tunnel construction project in Algeria.",
+                "After returning to academics to obtain a diploma in international welding engineering, he started working for the same water slide manufacturer as Fatih in 2013. There the two cemented their now 20-year long friendship, which alongside their years of relevant experience led to their decision to start Waveast in 2021. Since then both his career and personal life have soared—not only is he co-owner and managing director of Waveast, but he is also married and a proud father to a beautiful daughter!",
+                "His passion for engineering doesn’t stop at work though, in his free time he likes to visit auto services as he is a self defined vintage car addict that can’t get enough of his garage. That said, it doesn’t take up all his free time as he also likes to cook for his family and friends, an activity he never thought he’d do before his wife took the choice out of his hands. Here to prove that it’s always good to try new things, he’s surprisingly surpassed all expectations in the kitchen: he’s both great at it and a fan!"
+            ]
+        }
+    ],
     "contactCompany": "For all inquiries, use the contact form or reach out directly using the contact information provided below.",
-    "projectsPlaces": {
-        "seville": "Seville, Spain",
-        "antalya": "Antalya, Türkiye",
-        "tirana": "Tirana, Albania",
-        "chisinau": "Chisinau, Moldova",
-        "baghdad": "Baghdad, Iraq",
-        "pattaya": "Pattaya, Thailand",
-        "arandjelovac": "Arandjelovac, Serbia",
-        "babilon": "Babylon, Iraq",
-        "wrecza": "Wrecza, Poland",
-        "quatreCocos": "Quatre Cocos, Mauritius",
-        "izmir": "Izmir, Türkiye",
-        "coventry": "Coventry, England"
-    },
     "projects": {
         "aguamagica": {"name": "AGUA MAGICA", "place": "Seville", "country": "Spain"},
         "aquascope": {"name": "AQUASCOPE", "place": "Chasseneuil-du-Poitou", "country": "France"},

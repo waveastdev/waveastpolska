@@ -5,6 +5,7 @@ import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope, FaPaperPlane } from "react-icon
 import { validateForm } from "../../utils/validateForm"
 import PageHeader from "../../components/pageHeader/PageHeader"
 import useInform from "../../hooks/useInform"
+// import { ReCaptcha } from 'react-recaptcha-google'
 import "./contact.css"
 
 const contactDetails = [
@@ -163,6 +164,9 @@ function Contact() {
                         </textarea>
                         {errors.message && <span className="contact__form-error">{errors.message}</span>}
                     </div>
+                    {/* <ReCaptcha /> */}
+                    {/* <ReCAPTCHA sitekey={import.meta.env.VITE_RECAPTCHA_SITE_KEY} /> */}
+                    {/* <reCAPTCHA sitekey={import.meta.env.VITE_RECAPTCHA_SITE_KEY} size="invisible" /> */}
                     <div className="contact__form-btn">
                         <button className="btn btn--primary" type="submit" id="submit" value="submit" name="Submit">{t(`contact.contactForm.submitBtn`)} <FaPaperPlane/></button>
                     </div>

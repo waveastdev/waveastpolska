@@ -43,7 +43,7 @@
 .body--dark {
 --moonstone-dark: hsl(186, 100%, 46%);
 --mint-cream: hsl(168, 40%, 12%);
---warm-orange: hsl(32, 94%, 58%);
+--warm-orange: #f99b2f;
 --rich-black: #d3cfca;
 --cyan-dark: hsl(38, 10%, 79%);
 --cyan-darker: hsl(38, 10%, 84%);

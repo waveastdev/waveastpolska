@@ -6,6 +6,28 @@ import Statistics from "../../components/statistics/Statistics"
 import ProjectsMain from "../../components/projectsMain/ProjectsMain"
 import Faqs from "../../components/faqs/Faqs"
 import NewsLetter from "../../components/newsLetter/NewsLetter"
+import Partmemb from "../../components/partmemb/Partmemb"
+import partners from "../../assets/partners.png"
+import memberships from "../../assets/memberships.png"
+import iaapa from "../../assets/IAAPAMember.png"
+import basenprof from "../../assets/basenprof.png"
+import isaba from "../../assets/isaba.jpg"
+import apex from "../../assets/Apex.jpg"
+import dof from "../../assets/DOF.jpg"
+import oasys from "../../assets/oasys.jpeg"
+import sommarland from "../../assets/sommarland.png"
+
+const items = [
+    {id: 1, src: partners, altKey: "partners", category: "partners"},
+    {id: 2, src: isaba, altKey: "isabaAlt", category: "partners"},
+    {id: 3, src: apex, altKey: "apexAlt", category: "partners"},
+    {id: 4, src: dof, altKey: "dofAlt", category: "partners"},
+    {id: 5, src: oasys, altKey: "oasysAlt", category: "partners"}, 
+    {id: 6, src: sommarland, altKey: "sommarlandAlt", category: "partners"}, 
+    {id: 7, src: memberships, altKey: "memberships", category: "memberships"},
+    {id: 8, src: iaapa, altKey: "iaapaAlt", category: "memberships"},
+    {id: 9, src: basenprof, altKey: "basenprofAlt", category: "memberships"}, 
+]
 
 function Home() {
     return (
@@ -22,6 +44,7 @@ function Home() {
             <ServicesMain />
             <ProjectsMain />
             <Faqs />
+            <Partmemb items={items} />
             <NewsLetter />
         </div>
         </>
