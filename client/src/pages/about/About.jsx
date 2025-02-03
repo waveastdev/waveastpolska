@@ -81,6 +81,20 @@ function About() {
                 <p>{wrapCompanyName(t(`aboutCompany.1`, { projectCount, countryCount }))}</p>
                 <p>{wrapCompanyName(t(`aboutCompany.2`))}</p>
             </div>
+            <div className="company__team">
+                {teamMembers.map((member, index) => (
+                    <div className="team__member" key={index}>
+                        <div className="team__member-image">
+                            <img className="team__member-img" src={member.image} alt={member.alt} />
+                        </div>
+                        <div className="team__member-name">{member.name}</div>
+                        <div className="team__member-title">{member.title}</div>
+                        <button className="team__member-btn" onClick={() => learnMore(member.name, member.content)} >
+                            {member.learnMore}
+                        </button>
+                    </div>
+                ))}
+            </div>
             <div className="section__padding--block container">
                 <SpecialHeadingTwo title={t(`specialHeadings.whyWe`)} />
                 {reasons.map((reason) => (
@@ -128,7 +142,7 @@ function About() {
                     </div>
                 </div>
             </div>
-            <div className="section__people">
+            {/* <div className="section__people">
                 <div className="section__padding--block container">
                     <SpecialHeadingTwo title={t(`specialHeadings.people`)} />
                     <div className="company__people">
@@ -150,7 +164,7 @@ function About() {
                         ))}
                     </div>
                 </div>
-            </div>
+            </div> */}
             <div className="section__padding--block container">
                 <SpecialHeadingTwo title={t(`specialHeadings.behindName`)} />
                 <div className="company__name">

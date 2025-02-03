@@ -19,7 +19,7 @@ z-index: 100; }
             display: block;
             height: 100%;
             width: auto;}
-                .nav__logo-img:hover path {
+                .nav__logo-img:hover g g path {
                 fill: var(--moonstone-dark); }
         .nav__overlay {
         display: none; } 
