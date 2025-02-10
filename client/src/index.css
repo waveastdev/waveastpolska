@@ -285,3 +285,11 @@ background-color: var(--overlay-color); }
       .modal__text {
       font-size: 1.8rem;
       margin-bottom: 2rem; }
+
+.we {
+display: inline-block;
+height: 2.3rem; }
+    .we__svg {
+    display: block;
+    height: 100%;
+    width: auto; }

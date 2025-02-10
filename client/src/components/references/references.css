@@ -1,0 +1,21 @@
+.references__items {
+display: flex;
+align-items: flex-start;
+gap: 2rem;
+overflow-x: auto;
+scroll-behavior: smooth;
+scroll-snap-type: x mandatory;
+-ms-overflow-style: none;
+scrollbar-width: none; }
+.references__items::-webkit-scrollbar {
+display: none; }
+    .references-item {
+    flex: 0 0 auto;
+    width: 15rem;
+    scroll-snap-align: start;
+    display: block;
+    height: 15rem; }
+        .references-item__logo {
+        display: block;
+        height: 100%;
+        width: auto; }

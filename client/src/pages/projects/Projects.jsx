@@ -19,6 +19,7 @@ import "yet-another-react-lightbox/styles.css"
 import "yet-another-react-lightbox/plugins/captions.css"
 import "yet-another-react-lightbox/plugins/counter.css"
 import "./projects.css"
+import References from "../../components/references/References"
 
 function Projects() {
   const { t } = useTranslation()
@@ -31,10 +32,8 @@ function Projects() {
     { id: 2, option: "maintenance", optionTranslation: "servicesFilter.maintenance", active: false },
   ]);
 
-  // Filter projects based on the active filter
   const FilteredImages = projectsImages.filter((image) => image.category === activeFilter);
 
-  // Handle filter button clicks
   const handleFilter = (id, option) => {
     setFilterItems((prev) =>
       prev.map((item) => ({ ...item, active: item.id === id }))
@@ -42,14 +41,13 @@ function Projects() {
     setActiveFilter(option)
   }
 
-  // Handle project image click to open Lightbox
   const handleImageClick = (project) => {
     const projectSlides = project.images.map((image) => ({
       src: image,
-    }));
+    }))
     setSlides(projectSlides);
     setIsOpen(true);
-  };
+  }
 
   return (
     <>
@@ -65,7 +63,12 @@ function Projects() {
           <p>{wrapCompanyName(t(`projectsCompany.0`))}</p>
           <p>{wrapCompanyName(t(`projectsCompany.1`))}</p>
         </div>
-        <div className="container">
+        <div className="projects__references">
+          <div className="container section__padding--block">
+            <References />
+          </div>
+        </div>
+        <div className="container section__padding--block">
           <div className="section__padding">
             <SpecialHeadingTwo title={t(`specialHeadings.servicesGallery`)} />
           </div>
@@ -120,7 +123,7 @@ function Projects() {
         </div>
       </div>
     </>
-  );
+  )
 }
 
-export default Projects;
+export default Projects
