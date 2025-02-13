@@ -11,7 +11,7 @@ text-align: justify; }
         .services__service {
         display: flex;
         column-gap: 2rem;
-        scroll-margin-top: 5rem; }
+        scroll-margin-top: 7rem; }
             .services__icon {
             display: flex;
             justify-content: center;

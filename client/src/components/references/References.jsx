@@ -1,16 +1,18 @@
 import { useRef, memo, useState, useEffect } from "react"
 import sommarland from "../../assets/references/sommarland.png"
+import frenzy from "../../assets/references/frenzy.png"
 import "./references.css"
 
 const referencesItems = [ 
-    {id: 1, logo: sommarland, alt: "sommarlandAlt"}, 
+    {id: 1, logo: frenzy, alt: "frenzyAlt"},
+    {id: 2, logo: sommarland, alt: "sommarlandAlt"}, 
 ]
 
 const References = memo(function References() {
     const carousel = useRef()
     const [currentSlide, setCurrentSlide] = useState(0)
     const [totalSlides, setTotalSlides] = useState(1)
-    const itemWidth = 150 
+    const itemWidth = 180 
 
     useEffect(() => {
         const updateSlideInfo = () => {

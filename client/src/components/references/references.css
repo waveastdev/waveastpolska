@@ -11,10 +11,10 @@ scrollbar-width: none; }
 display: none; }
     .references-item {
     flex: 0 0 auto;
-    width: 15rem;
+    width: 18rem;
     scroll-snap-align: start;
     display: block;
-    height: 15rem; }
+    height: 18rem; }
         .references-item__logo {
         display: block;
         height: 100%;
