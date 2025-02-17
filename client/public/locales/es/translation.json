@@ -140,16 +140,24 @@
         {"title": "Garantía", "paragraph": "Nuestros servicios y productos están cubiertos por diversas garantías."},
         {"title": "Seguridad", "paragraph": "Nuestra principal prioridad es la seguridad de las personas y del medio ambiente, así como la durabilidad a largo plazo de nuestros productos."}
     ],
-    "partners": "socios",
-    "isabaAlt": "Logo de socio de ISABA",
-    "apexAlt": "Logo de socio de APEX",
-    "dofAlt": "Logo de socio de DOF",
-    "oasysAlt": "Logo de socio de OASYS",
-    "memberships": "membresías",
-    "iaapaAlt": "Logo de miembro de IAAPA",
-    "basenprofAlt": "Logo de miembro de BASENPROF",
-    "sommarlandAlt": "Logo de referencia de SOMMARLAND",
-    "frenzyAlt": "Logo de referencia de FRENZY",
+    "partners": {
+        "title": "socios",
+        "apexAlt": "Logo de socio de APEX",
+        "dofAlt": "Logo de socio de DOF",
+        "oasysAlt": "Logo de socio de OASYS",
+        "isabaAlt": "Logo de socio de ISABA"
+    },
+    "memberships": {
+        "title": "membresías",
+        "iaapaAlt": "Logo de miembro de IAAPA",
+        "basenprofAlt": "Logo de miembro de BASENPROF"
+    },
+    "references" : {
+        "title": "referencias",
+        "sommarlandAlt": "Logo de referencia de SOMMARLAND",
+        "frenzyAlt": "Logo de referencia de FRENZY",
+        "suntago": "Logo de referencia de SUNTAGO"
+    },
     "pageTitles": {
         "about": "¿Quiénes somos?",
         "services": "Nuestros servicios",

@@ -140,16 +140,24 @@
         {"title": "Gwarancja", "paragraph": "Nasze usługi i towary objęte są systemem gwarancji."},
         {"title": "Bezpieczeństwo", "paragraph": "Naszym nadrzędnym celem jest zdrowie i bezpieczeństwo ludzi oraz środowiska oraz wieloletnia trwałość naszych produktów."}
     ],
-    "partners": "partnerzy",
-    "isabaAlt": "Logo partnera ISABA",
-    "apexAlt": "Logo partnera APEX",
-    "dofAlt": "Logo partnera DOF",
-    "oasysAlt": "Logo partnera OASYS",
-    "memberships": "członkostwa",
-    "iaapaAlt": "Logo członka IAAPA",
-    "basenprofAlt": "Logo członka BASENPROF",
-    "sommarlandAlt": "Logo referencyjne SOMMARLAND",
-    "frenzyAlt": "Logo referencyjne FRENZY",
+    "partners": {
+        "title": "partnerzy",
+        "apexAlt": "Logo partnera APEX",
+        "dofAlt": "Logo partnera DOF",
+        "oasysAlt": "Logo partnera OASYS",
+        "isabaAlt": "Logo partnera ISABA"
+    },
+    "memberships": {
+        "title": "memberships",
+        "iaapaAlt": "Logo członka IAAPA",
+        "basenprofAlt": "BLogo członka BASENPROF"
+    },
+    "references" : {
+        "title": "referencje",
+        "sommarlandAlt": "Logo referencyjne SOMMARLAND",
+        "frenzyAlt": "Logo referencyjne FRENZY",
+        "suntago": "Logo referencyjne SUNTAGO"
+    },
     "pageTitles": {
         "about": "Kim jesteśmy?",
         "services": "Nasze usługi",

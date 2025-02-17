@@ -101,16 +101,24 @@
         {"title":"Warranty", "paragraph":"Our services and goods are covered by a variety of warranties."},
         {"title":"Safety", "paragraph":"Our top goal is the health and safety of people and the environment, as well as the long-term durability of our products."}
     ],
-    "partners": "partners",
-    "apexAlt": "APEX partner logo",
-    "dofAlt": "DOF partner logo",
-    "oasysAlt": "OASYS partner logo",
-    "isabaAlt": "ISABA partner logo",
-    "memberships": "memberships",
-    "iaapaAlt": "IAAPA member logo",
-    "basenprofAlt": "BASENPROF member logo",
-    "sommarlandAlt": "SOMMARLAND reference logo",
-    "frenzyAlt": "FRENZY reference logo",
+    "partners": {
+        "title": "partners",
+        "apexAlt": "APEX partner logo",
+        "dofAlt": "DOF partner logo",
+        "oasysAlt": "OASYS partner logo",
+        "isabaAlt": "ISABA partner logo"
+    },
+    "memberships": {
+        "title": "memberships",
+        "iaapaAlt": "IAAPA member logo",
+        "basenprofAlt": "BASENPROF member logo"
+    },
+    "references" : {
+        "title": "references",
+        "sommarlandAlt": "SOMMARLAND reference logo",
+        "frenzyAlt": "FRENZY reference logo",
+        "suntagoAlt": "SUNTAGO reference logo"
+    },
     "pageTitles": {
         "about": "Who are we?",
         "services": "Our services",

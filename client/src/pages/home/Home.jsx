@@ -18,15 +18,15 @@ import basenprof from "../../assets/memberships/basenprof.png"
 
 const items = [
     // Partners
-    {id: 1, src: partners, altKey: "partners", category: "partners"},
-    {id: 2, src: isaba, altKey: "isabaAlt", category: "partners"},
-    {id: 3, src: apex, altKey: "apexAlt", category: "partners"},
-    {id: 4, src: dof, altKey: "dofAlt", category: "partners"},
-    {id: 5, src: oasys, altKey: "oasysAlt", category: "partners"},
+    {id: 1, src: partners, altKey: "partners.title", category: "partners"},
+    {id: 2, src: isaba, altKey: "partners.isabaAlt", category: "partners"},
+    {id: 3, src: apex, altKey: "partners.apexAlt", category: "partners"},
+    {id: 4, src: dof, altKey: "partners.dofAlt", category: "partners"},
+    {id: 5, src: oasys, altKey: "partners.oasysAlt", category: "partners"},
     // Memberships
-    {id: 6, src: memberships, altKey: "memberships", category: "memberships"},
-    {id: 7, src: iaapa, altKey: "iaapaAlt", category: "memberships"},
-    {id: 8, src: basenprof, altKey: "basenprofAlt", category: "memberships"}, 
+    {id: 6, src: memberships, altKey: "memberships.title", category: "memberships"},
+    {id: 7, src: iaapa, altKey: "memberships.iaapaAlt", category: "memberships"},
+    {id: 8, src: basenprof, altKey: "memberships.basenprofAlt", category: "memberships"}, 
 ]
 
 function Home() {

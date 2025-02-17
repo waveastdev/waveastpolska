@@ -1,11 +1,13 @@
 import { useRef, memo, useState, useEffect } from "react"
 import sommarland from "../../assets/references/sommarland.png"
 import frenzy from "../../assets/references/frenzy.png"
+import suntago from "../../assets/references/suntago.png"
 import "./references.css"
 
 const referencesItems = [ 
-    {id: 1, logo: frenzy, alt: "frenzyAlt"},
-    {id: 2, logo: sommarland, alt: "sommarlandAlt"}, 
+    {id: 1, logo: frenzy, alt: "references.frenzyAlt"},
+    {id: 2, logo: sommarland, alt: "references.sommarlandAlt"},
+    {id: 3, logo: suntago, alt: "references.suntagoAlt"},
 ]
 
 const References = memo(function References() {
