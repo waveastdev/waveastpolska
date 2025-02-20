@@ -3,7 +3,6 @@ import sommarland from "../../assets/references/sommarland.png"
 import frenzy from "../../assets/references/frenzy.png"
 import suntago from "../../assets/references/suntago.png"
 import edsun from "../../assets/references/edsun.png"
-import eleven from "../../assets/references/eleven.png"
 import "./references.css"
 
 const referencesItems = [ 
@@ -11,7 +10,6 @@ const referencesItems = [
     {id: 2, logo: sommarland, alt: "references.sommarlandAlt"},
     {id: 3, logo: suntago, alt: "references.suntagoAlt"},
     {id: 4, logo: edsun, alt: "references.edsunAlt"},
-    {id: 5, logo: eleven, alt: "references.elevenAlt"}
 ]
 
 const References = memo(function References() {

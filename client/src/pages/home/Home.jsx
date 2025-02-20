@@ -12,6 +12,7 @@ import isaba from "../../assets/partners/isaba.jpg"
 import apex from "../../assets/partners/Apex.jpg"
 import dof from "../../assets/partners/DOF.jpg"
 import oasys from "../../assets/partners/oasys.jpeg"
+import eleven from "../../assets/partners/eleven.png"
 import memberships from "../../assets/memberships/memberships.png"
 import iaapa from "../../assets/memberships/IAAPAMember.png"
 import basenprof from "../../assets/memberships/basenprof.png"
@@ -23,10 +24,11 @@ const items = [
     {id: 3, src: apex, altKey: "partners.apexAlt", category: "partners"},
     {id: 4, src: dof, altKey: "partners.dofAlt", category: "partners"},
     {id: 5, src: oasys, altKey: "partners.oasysAlt", category: "partners"},
+    {id: 6, src: eleven, altKey: "partners.elevenAlt", category: "partners"},
     // Memberships
-    {id: 6, src: memberships, altKey: "memberships.title", category: "memberships"},
-    {id: 7, src: iaapa, altKey: "memberships.iaapaAlt", category: "memberships"},
-    {id: 8, src: basenprof, altKey: "memberships.basenprofAlt", category: "memberships"}, 
+    {id: 7, src: memberships, altKey: "memberships.title", category: "memberships"},
+    {id: 8, src: iaapa, altKey: "memberships.iaapaAlt", category: "memberships"},
+    {id: 9, src: basenprof, altKey: "memberships.basenprofAlt", category: "memberships"}, 
 ]
 
 function Home() {
