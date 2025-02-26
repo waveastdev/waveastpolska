@@ -107,7 +107,8 @@
         "dofAlt": "DOF partner logo",
         "oasysAlt": "OASYS partner logo",
         "isabaAlt": "ISABA partner logo",
-        "elevenAlt": "ELEVEN partner logo"
+        "elevenAlt": "ELEVEN partner logo",
+        "edsunAlt": "EDSUN partner logo"
     },
     "memberships": {
         "title": "memberships",
@@ -118,8 +119,7 @@
         "title": "references",
         "sommarlandAlt": "SOMMARLAND reference logo",
         "frenzyAlt": "FRENZY reference logo",
-        "suntagoAlt": "SUNTAGO reference logo",
-        "edsunAlt": "EDSUN reference logo"
+        "suntagoAlt": "SUNTAGO reference logo"
     },
     "pageTitles": {
         "about": "Who are we?",
