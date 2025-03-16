@@ -23,7 +23,7 @@ function Partmemb({ items }) {
                     {displayedItems.map((item, index) => (
                         <div key={`${item.id}-${index}`} className={`partmemb-item partmemb-item--${item.category}`}>
                             <img className="partmemb-img" src={item.src} alt={t(item.altKey)} />
-                            {item.altKey === "iaapaAlt" ? (<span className="partmemb-img-span">{currentYear}</span>) : ""}
+                            {item.altKey === "memberships.iaapaAlt" ? (<span className="partmemb-img-span">{currentYear}</span>) : ""}
                             {item.altKey === "partners.title" ? (<span className="partmemb-img-title">{t(`partners.title`)}</span>) : ""}
                             {item.altKey === "memberships.title" ? (<span className="partmemb-img-title">{t(`memberships.title`)}</span>) : ""}
                         </div>
