@@ -152,7 +152,8 @@
     "memberships": {
         "title": "adhésions",
         "iaapaAlt": "Logo membre IAAPA",
-        "basenprofAlt": "Logo membre BASENPROF"
+        "basenprofAlt": "Logo membre BASENPROF",
+        "sindepatAlt": "Logo membre SINDEPAT"
     },
     "references" : {
         "title": "références",

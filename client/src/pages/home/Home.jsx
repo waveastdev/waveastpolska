@@ -17,6 +17,7 @@ import edsun from "../../assets/partners/edsun.png"
 import memberships from "../../assets/memberships/memberships.png"
 import iaapa from "../../assets/memberships/IAAPAMember.png"
 import basenprof from "../../assets/memberships/basenprof.png"
+import sindepat from "../../assets/memberships/sindepat.png"
 
 const items = [
     // Partners
@@ -31,6 +32,7 @@ const items = [
     {id: 8, src: memberships, altKey: "memberships.title", category: "memberships"},
     {id: 9, src: iaapa, altKey: "memberships.iaapaAlt", category: "memberships"},
     {id: 10, src: basenprof, altKey: "memberships.basenprofAlt", category: "memberships"}, 
+    {id: 11, src: sindepat, altKey: "memberships.sindepatAlt", category: "memberships"},
 ]
 
 function Home() {

@@ -113,7 +113,8 @@
     "memberships": {
         "title": "memberships",
         "iaapaAlt": "IAAPA member logo",
-        "basenprofAlt": "BASENPROF member logo"
+        "basenprofAlt": "BASENPROF member logo",
+        "sindepatAlt": "SINDEPAT member logo"
     },
     "references" : {
         "title": "references",
